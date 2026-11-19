@@ -6,9 +6,9 @@
 
 ## 任務清單
 
-- [T01：建立一個新的 Repo](T01-create-repository.md) — GitHub Repository
-- [T02：將現有資料夾建立成 Repo](T02-initialize-repository.md) — Initialize Repository
-- [T03：將本機 Repo 上傳到 GitHub](T03-publish-repository.md) — Publish to GitHub / Push
-- [T04：下載／複製一個 Repo](T04-clone-repository.md) — Clone Repository
-- [T05：在 VS Code 開啟已存在的 Repo](T05-open-repository.md) — Open Folder / Open Repository
-- [T06：設定 GitHub 帳號](T06-github-authentication.md) — GitHub Authentication / Sign in
+- [T01：建立一個新的 Repo](T01-建立一個儲存庫.md) — GitHub Repository
+- [T02：將現有資料夾建立成 Repo](T02-初始化既有資料夾.md) — Initialize Repository
+- [T03：將本機 Repo 上傳到 GitHub](T03-發佈本機儲存庫.md) — Publish to GitHub / Push
+- [T04：下載／複製一個 Repo](T04-複製儲存庫.md) — Clone Repository
+- [T05：在 VS Code 開啟已存在的 Repo](T05-在編輯器開啟儲存庫.md) — Open Folder / Open Repository
+- [T06：設定 GitHub 帳號](T06-設定帳號登入.md) — GitHub Authentication / Sign in

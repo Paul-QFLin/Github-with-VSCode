@@ -6,9 +6,9 @@
 
 ## 任務清單
 
-- [T07：修改程式後更新 GitHub](T07-stage-changes.md) — Changes / Stage Changes
-- [T08：將修改內容儲存成一個版本](T08-commit-changes.md) — Commit
-- [T09：將本機版本上傳至 GitHub](T09-push-changes.md) — Push
-- [T10：取得 GitHub 上的最新版本](T10-pull-changes.md) — Pull
-- [T11：查看檔案修改內容](T11-view-diff.md) — Diff
-- [T12：查看過去的版本紀錄](T12-commit-history.md) — Commit History
+- [T07：修改程式後更新 GitHub](T07-暫存變更.md) — Changes / Stage Changes
+- [T08：將修改內容儲存成一個版本](T08-提交變更.md) — Commit
+- [T09：將本機版本上傳至 GitHub](T09-推送變更.md) — Push
+- [T10：取得 GitHub 上的最新版本](T10-拉取最新版本.md) — Pull
+- [T11：查看檔案修改內容](T11-檢視差異.md) — Diff
+- [T12：查看過去的版本紀錄](T12-查看提交紀錄.md) — Commit History

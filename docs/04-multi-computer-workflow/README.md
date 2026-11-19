@@ -6,8 +6,8 @@
 
 ## 任務清單
 
-- [T19：在 A 電腦修改程式，在 B 電腦繼續工作](T19-work-across-computers.md) — Push / Pull
-- [T20：在不同電腦同步所有專案](T20-manage-multiple-repositories.md) — 多 Repo 管理
-- [T21：在另一台電腦取得最新程式](T21-fetch-pull-on-another-computer.md) — Fetch / Pull
-- [T22：解決兩台電腦修改同一檔案的問題](T22-resolve-merge-conflict.md) — Merge Conflict
-- [T23：在不同電腦維持相同的 VS Code 環境](T23-sync-vscode-environment.md) — Settings Sync / Extensions
+- [T19：在 A 電腦修改程式，在 B 電腦繼續工作](T19-跨電腦接續工作.md) — Push / Pull
+- [T20：在不同電腦同步所有專案](T20-管理多個儲存庫.md) — 多 Repo 管理
+- [T21：在另一台電腦取得最新程式](T21-在另一台電腦取得更新.md) — Fetch / Pull
+- [T22：解決兩台電腦修改同一檔案的問題](T22-解決合併衝突.md) — Merge Conflict
+- [T23：在不同電腦維持相同的 VS Code 環境](T23-同步編輯器環境.md) — Settings Sync / Extensions
