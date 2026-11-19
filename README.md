@@ -4,7 +4,7 @@
 
 ## 學習方式
 
-1. 先完成 [T00：準備 GitHub 帳號與操作環境](docs/01-基礎的儲存庫操作-repository-basics/T00-準備帳號與操作環境.md)，再依階段順序學習或選擇需要的主題。
+1. 先完成 [T00：準備 GitHub 帳號與操作環境](docs/01-基礎的儲存庫操作-repository-basics/T00-註冊Github與設定VSCode.md)，再依階段順序學習或選擇需要的主題。
 2. 每項任務都有獨立的學習頁面，包含任務目標、學習重點、實作步驟與完成檢查。
 3. 練習時請使用自己的測試 Repository；操作前先確認目前的資料夾、分支與遠端位置。
 
@@ -16,7 +16,7 @@
 
 | 階段 | 主題 | 任務 |
 | --- | --- | --- |
-| [第一階段：建立與取得 Repo](docs/01-基礎的儲存庫操作-repository-basics/README.md) | 入門 | [T00 準備帳號與操作環境](docs/01-基礎的儲存庫操作-repository-basics/T00-準備帳號與操作環境.md)、[T01 建立新的 Repo](docs/01-基礎的儲存庫操作-repository-basics/T01-建立一個儲存庫.md)、[T02 將資料夾建立成 Repo](docs/01-基礎的儲存庫操作-repository-basics/T02-初始化既有資料夾.md)、[T03 將本機 Repo 上傳到 GitHub](docs/01-基礎的儲存庫操作-repository-basics/T03-發佈本機儲存庫.md)、[T04 下載／複製 Repo](docs/01-基礎的儲存庫操作-repository-basics/T04-複製儲存庫.md)、[T05 在 VS Code 開啟 Repo](docs/01-基礎的儲存庫操作-repository-basics/T05-在編輯器開啟儲存庫.md)、[T06 設定 GitHub 帳號](docs/01-基礎的儲存庫操作-repository-basics/T06-設定帳號登入.md) |
+| [第一階段：建立與取得 Repo](docs/01-基礎的儲存庫操作-repository-basics/README.md) | 入門 | [T00 準備帳號與操作環境](docs/01-基礎的儲存庫操作-repository-basics/T00-註冊Github與設定VSCode.md)、[T01 建立新的 Repo](docs/01-基礎的儲存庫操作-repository-basics/T01-建立一個儲存庫.md)、[T02 將資料夾建立成 Repo](docs/01-基礎的儲存庫操作-repository-basics/T02-初始化既有資料夾.md)、[T03 將本機 Repo 上傳到 GitHub](docs/01-基礎的儲存庫操作-repository-basics/T03-發佈本機儲存庫.md)、[T04 下載／複製 Repo](docs/01-基礎的儲存庫操作-repository-basics/T04-複製儲存庫.md)、[T05 在 VS Code 開啟 Repo](docs/01-基礎的儲存庫操作-repository-basics/T05-在編輯器開啟儲存庫.md) |
 | [第二階段：基本版本控制](docs/02-版本控制-version-control/README.md) | 核心操作 | [T07 更新 GitHub 上的程式](docs/02-版本控制-version-control/T07-暫存變更.md)、[T08 建立版本紀錄](docs/02-版本控制-version-control/T08-提交變更.md)、[T09 Push 上傳本機版本](docs/02-版本控制-version-control/T09-推送變更.md)、[T10 Pull 取得最新版本](docs/02-版本控制-version-control/T10-拉取最新版本.md)、[T11 查看檔案差異](docs/02-版本控制-version-control/T11-檢視差異.md)、[T12 查看 Commit History](docs/02-版本控制-version-control/T12-查看提交紀錄.md) |
 | [第三階段：檔案與 Repo 管理](docs/03-檔案與儲存庫管理-files-and-repositories/README.md) | 實務操作 | [T13 新增檔案](docs/03-檔案與儲存庫管理-files-and-repositories/T13-追蹤新檔案.md)、[T14 刪除或重新命名檔案](docs/03-檔案與儲存庫管理-files-and-repositories/T14-刪除與重新命名檔案.md)、[T15 設定 `.gitignore`](docs/03-檔案與儲存庫管理-files-and-repositories/T15-設定忽略檔案.md)、[T16 使用 Git Add 加入檔案](docs/03-檔案與儲存庫管理-files-and-repositories/T16-將檔案加入版本控制.md)、[T17 修改遠端位置](docs/03-檔案與儲存庫管理-files-and-repositories/T17-修改遠端網址.md)、[T18 將 Repo 複製到另一台電腦](docs/03-檔案與儲存庫管理-files-and-repositories/T18-複製到另一台電腦.md) |
 | [第四階段：多電腦協同工作](docs/04-多電腦協同工作-multi-computer-workflow/README.md) | 實務應用 | [T19 在兩台電腦接續工作](docs/04-多電腦協同工作-multi-computer-workflow/T19-跨電腦接續工作.md)、[T20 同步多個專案](docs/04-多電腦協同工作-multi-computer-workflow/T20-管理多個儲存庫.md)、[T21 在另一台電腦取得最新程式](docs/04-多電腦協同工作-multi-computer-workflow/T21-在另一台電腦取得更新.md)、[T22 解決 Merge Conflict](docs/04-多電腦協同工作-multi-computer-workflow/T22-解決合併衝突.md)、[T23 同步 VS Code 環境](docs/04-多電腦協同工作-multi-computer-workflow/T23-同步編輯器環境.md) |
@@ -38,4 +38,4 @@
     └── 06-進階應用與自動化-advanced-and-automation/
 ```
 
-每個階段目錄都有階段導覽頁及該階段的任務文件。任務編號沿用本頁的 T00–T37，方便查找與追蹤學習進度。
+每個階段目錄都有階段導覽頁及該階段的任務文件。帳號設定已整合至 T00，因此不另設 T06。
