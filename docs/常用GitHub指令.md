@@ -39,7 +39,7 @@
 | `git diff --staged` | 查看已暫存、準備納入下一次提交的修改。 | [T05](02-版本控制-version-control/T05-查看變更與版本紀錄.md) |
 | `git log` | 查看提交紀錄。 | [T05](02-版本控制-version-control/T05-查看變更與版本紀錄.md) |
 | `git --no-pager log --oneline` | 不開啟分頁器，以簡短格式查看提交紀錄。 | [T05](02-版本控制-version-control/T05-查看變更與版本紀錄.md) |
-| `git log --oneline --graph --decorate` | 查看簡短提交紀錄及分支、合併的呈現。 | [T07](02-版本控制-version-control/README.md#課程安排) |
+| `git log --oneline --graph --decorate` | 查看簡短提交紀錄及分支、合併的呈現。 | [T07](02-版本控制-version-control/T07-建立切換與合併分支.md) |
 | `git show <提交編號>` | 查看特定提交包含的內容。 | [T05](02-版本控制-version-control/T05-查看變更與版本紀錄.md)、[T06](02-版本控制-version-control/T06-回復與放棄修改.md) |
 
 ## 4. 上傳、下載與遠端位置
@@ -71,13 +71,13 @@
 
 | 指令 | 用途 | 主要關聯的講義 |
 | --- | --- | --- |
-| `git branch` | 查看本機分支。 | [T07](02-版本控制-version-control/README.md#課程安排) |
-| `git branch <分支名稱>` | 建立新的本機分支。 | [T07](02-版本控制-version-control/README.md#課程安排) |
-| `git switch <分支名稱>` | 切換到既有分支。 | [T07](02-版本控制-version-control/README.md#課程安排) |
-| `git switch -c <分支名稱>` | 建立並切換到新分支。 | [T07](02-版本控制-version-control/README.md#課程安排) |
-| `git merge <分支名稱>` | 將指定分支的內容合併到目前分支。 | [T07](02-版本控制-version-control/README.md#課程安排) |
+| `git branch` | 查看本機分支。 | [T07](02-版本控制-version-control/T07-建立切換與合併分支.md) |
+| `git branch <分支名稱>` | 建立新的本機分支。 | [T07](02-版本控制-version-control/T07-建立切換與合併分支.md) |
+| `git switch <分支名稱>` | 切換到既有分支。 | [T07](02-版本控制-version-control/T07-建立切換與合併分支.md) |
+| `git switch -c <分支名稱>` | 建立並切換到新分支。 | [T07](02-版本控制-version-control/T07-建立切換與合併分支.md) |
+| `git merge <分支名稱>` | 將指定分支的內容合併到目前分支。 | [T07](02-版本控制-version-control/T07-建立切換與合併分支.md) |
 | `git push -u origin <分支名稱>` | 第一次將本機分支上傳到遠端並建立對應關係。 | [T08](02-版本控制-version-control/README.md#課程安排) |
-| `git branch -d <分支名稱>` | 在確認不再需要後刪除本機分支。 | [T07](02-版本控制-version-control/README.md#課程安排) |
+| `git branch -d <分支名稱>` | 在確認不再需要後刪除本機分支。 | [T07](02-版本控制-version-control/T07-建立切換與合併分支.md) |
 
 講義主要先介紹分支與合併；Pull Request 則以 GitHub 網頁操作為主。
 
