@@ -17,23 +17,23 @@
 
 ### 1. 註冊並登入 GitHub
 
-1. 開啟 [GitHub 註冊頁面](https://github.com/signup)，依畫面提示建立個人帳號，並完成電子郵件驗證。已有帳號者可到 [GitHub](https://github.com/) 選擇 **Sign in**（登入）。
+1. 開啟 <a href="https://github.com/signup" target="_blank" rel="noopener noreferrer">GitHub 註冊頁面</a>，依畫面提示建立個人帳號，並完成電子郵件驗證。已有帳號者可到 <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a> 選擇 **Sign in**（登入）。
 2. 登入後，點選右上角的頭像，確認顯示的是預期的使用者名稱，再選擇 **Your profile**（個人資料）查看個人頁面。
-3. 建議在帳號安全設定中啟用[雙重驗證](https://docs.github.com/zh/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)，並安全保存復原資訊。不要將密碼、驗證碼或復原碼提交到儲存庫。
+3. 建議在帳號安全設定中啟用<a href="https://docs.github.com/zh/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication" target="_blank" rel="noopener noreferrer">雙重驗證</a>，並安全保存復原資訊。不要將密碼、驗證碼或復原碼提交到儲存庫。
 
 若使用公司或學校管理的帳號，請依管理員提供的登入與安全設定方式操作。
 
 ### 2. 認識 GitHub 網頁版
 
-1. 回到 [GitHub 首頁](https://github.com/)，觀察首頁、搜尋欄與右上角帳號選單的位置。
-2. 開啟公開範例儲存庫 [octocat/Hello-World](https://github.com/octocat/Hello-World)，查看擁有者、儲存庫名稱、檔案清單與 README 說明。
+1. 回到 <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub 首頁</a>，觀察首頁、搜尋欄與右上角帳號選單的位置。
+2. 開啟公開範例儲存庫 <a href="https://github.com/octocat/Hello-World" target="_blank" rel="noopener noreferrer">octocat/Hello-World</a>，查看擁有者、儲存庫名稱、檔案清單與 README 說明。
 3. 點選一個檔案閱讀內容，再返回儲存庫首頁。此練習只需瀏覽，不必建立或修改任何檔案。
 
 網頁的配置與文字可能因語言或版本而不同。
 
 ### 3. 確認 VS Code 與 Git
 
-1. 若尚未安裝，請先從 [VS Code 官網](https://code.visualstudio.com/)及 [Git 下載頁面](https://git-scm.com/downloads)安裝適合自己作業系統的版本。
+1. 若尚未安裝，請先從 <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">VS Code 官網</a>及 <a href="https://git-scm.com/downloads" target="_blank" rel="noopener noreferrer">Git 下載頁面</a>安裝適合自己作業系統的版本。
 2. 開啟 VS Code，選擇 **Terminal → New Terminal**（終端機 → 新增終端機），輸入：
 
    ```sh
@@ -41,7 +41,7 @@
    ```
 
 3. 確認終端機顯示 Git 版本號。如果找不到 `git`，請確認已安裝 Git，重新啟動 VS Code 後再試。
-4. 後續提交前，依 [GitHub 的 Git 設定說明](https://docs.github.com/zh/get-started/git-basics/set-up-git)設定 Git 使用者名稱與提交電子郵件。這些是提交紀錄的作者資訊，與 GitHub 帳號登入不同。
+4. 後續提交前，依 <a href="https://docs.github.com/zh/get-started/git-basics/set-up-git" target="_blank" rel="noopener noreferrer">GitHub 的 Git 設定說明</a>設定 Git 使用者名稱與提交電子郵件。這些是提交紀錄的作者資訊，與 GitHub 帳號登入不同。
 
 ### 4. 在 VS Code 登入 GitHub
 
