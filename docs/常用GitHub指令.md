@@ -35,12 +35,12 @@
 
 | 指令 | 用途 | 主要關聯的講義 |
 | --- | --- | --- |
-| `git diff` | 查看工作區尚未暫存的修改。 | [T05：查看變更與版本紀錄（規劃）](02-版本控制-version-control/README.md#課程安排) |
-| `git diff --staged` | 查看已暫存、準備納入下一次提交的修改。 | [T05：查看變更與版本紀錄（規劃）](02-版本控制-version-control/README.md#課程安排) |
-| `git log` | 查看提交紀錄。 | [T05：查看變更與版本紀錄（規劃）](02-版本控制-version-control/README.md#課程安排) |
-| `git log --oneline` | 以簡短格式查看提交紀錄。 | [T05：查看變更與版本紀錄（規劃）](02-版本控制-version-control/README.md#課程安排) |
+| `git diff` | 查看工作區尚未暫存的修改。 | [T05：查看變更與版本紀錄](02-版本控制-version-control/T05-查看變更與版本紀錄.md) |
+| `git diff --staged` | 查看已暫存、準備納入下一次提交的修改。 | [T05：查看變更與版本紀錄](02-版本控制-version-control/T05-查看變更與版本紀錄.md) |
+| `git log` | 查看提交紀錄。 | [T05：查看變更與版本紀錄](02-版本控制-version-control/T05-查看變更與版本紀錄.md) |
+| `git --no-pager log --oneline` | 不開啟分頁器，以簡短格式查看提交紀錄。 | [T05：查看變更與版本紀錄](02-版本控制-version-control/T05-查看變更與版本紀錄.md) |
 | `git log --oneline --graph --decorate` | 查看簡短提交紀錄及分支、合併的呈現。 | [T07：建立、切換與合併分支（規劃）](02-版本控制-version-control/README.md#課程安排) |
-| `git show <提交編號>` | 查看特定提交包含的內容。 | [T05：查看變更與版本紀錄（規劃）](02-版本控制-version-control/README.md#課程安排)、[T06：回復與放棄修改（規劃）](02-版本控制-version-control/README.md#課程安排) |
+| `git show <提交編號>` | 查看特定提交包含的內容。 | [T05：查看變更與版本紀錄](02-版本控制-version-control/T05-查看變更與版本紀錄.md)、[T06：回復與放棄修改（規劃）](02-版本控制-version-control/README.md#課程安排) |
 
 ## 4. 上傳、下載與遠端位置
 
