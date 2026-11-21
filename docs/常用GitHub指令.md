@@ -24,8 +24,8 @@
 | `git add <檔案或資料夾>` | 將指定修改加入下一次提交的暫存區。 | [T02](01-基礎的儲存庫操作-repository-basics/T02-提交Commit一個版本.md) |
 | `git add .` | 暫存目前資料夾中可追蹤的修改；使用前先確認內容。 | [T02](01-基礎的儲存庫操作-repository-basics/T02-提交Commit一個版本.md)、[T09](03-檔案與儲存庫管理-files-and-repositories/README.md#規劃中的任務) |
 | `git commit -m "提交訊息"` | 建立一個包含已暫存內容的本機版本。 | [T02](01-基礎的儲存庫操作-repository-basics/T02-提交Commit一個版本.md) |
-| `git restore <檔案>` | 放棄尚未提交的工作區修改，使用前先確認會遺失的內容。 | [T06](02-版本控制-version-control/README.md#課程安排) |
-| `git restore --staged <檔案>` | 取消暫存，保留檔案目前的修改。 | [T06](02-版本控制-version-control/README.md#課程安排) |
+| `git restore <檔案>` | 放棄尚未提交的工作區修改，使用前先確認會遺失的內容。 | [T06](02-版本控制-version-control/T06-回復與放棄修改.md) |
+| `git restore --staged <檔案>` | 取消暫存，保留檔案目前的修改。 | [T06](02-版本控制-version-control/T06-回復與放棄修改.md) |
 | `git rm <檔案>` | 從工作目錄及版本追蹤中刪除檔案。 | [T09](03-檔案與儲存庫管理-files-and-repositories/README.md#規劃中的任務) |
 | `git mv <原檔案> <新檔案>` | 將檔案重新命名或移動，並讓 Git 記錄這個變更。 | [T09](03-檔案與儲存庫管理-files-and-repositories/README.md#規劃中的任務) |
 
@@ -40,7 +40,7 @@
 | `git log` | 查看提交紀錄。 | [T05](02-版本控制-version-control/T05-查看變更與版本紀錄.md) |
 | `git --no-pager log --oneline` | 不開啟分頁器，以簡短格式查看提交紀錄。 | [T05](02-版本控制-version-control/T05-查看變更與版本紀錄.md) |
 | `git log --oneline --graph --decorate` | 查看簡短提交紀錄及分支、合併的呈現。 | [T07](02-版本控制-version-control/README.md#課程安排) |
-| `git show <提交編號>` | 查看特定提交包含的內容。 | [T05](02-版本控制-version-control/T05-查看變更與版本紀錄.md)、[T06](02-版本控制-version-control/README.md#課程安排) |
+| `git show <提交編號>` | 查看特定提交包含的內容。 | [T05](02-版本控制-version-control/T05-查看變更與版本紀錄.md)、[T06](02-版本控制-version-control/T06-回復與放棄修改.md) |
 
 ## 4. 上傳、下載與遠端位置
 
@@ -85,10 +85,11 @@
 
 | 指令 | 用途 | 主要關聯的講義 |
 | --- | --- | --- |
-| `git revert <提交編號>` | 建立一個新的提交來反轉指定提交，保留原本歷史。 | [T06](02-版本控制-version-control/README.md#課程安排) |
-| `git reset --soft <提交編號>` | 移動到指定提交並保留暫存與工作區修改；屬於進階操作，使用前應理解影響。 | [T06](02-版本控制-version-control/README.md#課程安排) |
-| `git reset --mixed <提交編號>` | 移動到指定提交並保留工作區修改、取消暫存；使用前應理解影響。 | [T06](02-版本控制-version-control/README.md#課程安排) |
-| `git reset --hard <提交編號>` | 直接恢復指定提交並刪除相關未提交修改；本講義不建議初學者自行使用。 | [T06](02-版本控制-version-control/README.md#課程安排) |
+| `git revert <提交編號>` | 建立一個新的提交來反轉指定提交，保留原本歷史。 | [T06](02-版本控制-version-control/T06-回復與放棄修改.md) |
+| `git revert --no-edit <提交編號>` | 以 Git 預設訊息建立反向提交，不開啟提交訊息編輯器。 | [T06](02-版本控制-version-control/T06-回復與放棄修改.md) |
+| `git reset --soft <提交編號>` | 移動到指定提交並保留暫存與工作區修改；屬於進階操作，使用前應理解影響。 | [T06](02-版本控制-version-control/T06-回復與放棄修改.md) |
+| `git reset --mixed <提交編號>` | 移動到指定提交並保留工作區修改、取消暫存；使用前應理解影響。 | [T06](02-版本控制-version-control/T06-回復與放棄修改.md) |
+| `git reset --hard <提交編號>` | 直接恢復指定提交並刪除相關未提交修改；本講義不建議初學者自行使用。 | [T06](02-版本控制-version-control/T06-回復與放棄修改.md) |
 | `git tag <標籤名稱>` | 建立一個指向目前提交的輕量標籤。 | [T16](05-進階應用與自動化-advanced-and-automation/README.md#規劃中的任務) |
 | `git tag -a <標籤名稱> -m "標籤說明"` | 建立包含說明資訊的標籤。 | [T16](05-進階應用與自動化-advanced-and-automation/README.md#規劃中的任務) |
 | `git push origin <標籤名稱>` | 將指定標籤上傳至 GitHub。 | [T16](05-進階應用與自動化-advanced-and-automation/README.md#規劃中的任務) |
