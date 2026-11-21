@@ -52,6 +52,26 @@
 
 小提醒：VS Code 的 GitHub 登入和 Git 使用 HTTPS／SSH 連線時的認證不一定相同。之後 Clone、Push 或 Pull 若再次要求登入，依提示完成授權即可；請不要把密碼或權杖寫進專案檔案。
 
+## 小測驗
+
+在進入下一課之前，來試試看吧！請選出**一個**答案，再展開下方解答確認。
+
+**問題：** 我已安裝 Git，想確認它能在 VS Code 終端機中使用，應該輸入哪個指令？
+
+- A. `git --version`
+- B. `git clone`
+- C. `git push`
+- D. `git commit`
+
+<details>
+<summary>查看答案</summary>
+
+答案是 **A. `git --version`**。如果終端機顯示 Git 版本號，就代表 Git 可以使用。`git clone` 用來複製儲存庫，`git push` 用來上傳提交，而 `git commit` 用來建立提交。
+
+如果看到找不到 `git` 的訊息，請先確認 Git 已安裝，再重新啟動 VS Code 試一次。
+
+</details>
+
 ## 完成檢查
 
 - [ ] 我已登入 GitHub、完成電子郵件驗證，也知道自己的使用者名稱。
