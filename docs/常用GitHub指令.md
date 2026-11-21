@@ -13,7 +13,7 @@
 | `git config --global user.email "電子郵件"` | 設定所有本機儲存庫預設使用的提交電子郵件。 | [T00](01-基礎的儲存庫操作-repository-basics/T00-註冊Github與設定VSCode.md) |
 | `git config --get user.name` | 查看目前儲存庫或全域設定的使用者名稱。 | [T00](01-基礎的儲存庫操作-repository-basics/T00-註冊Github與設定VSCode.md) |
 | `git config --get user.email` | 查看目前儲存庫或全域設定的提交電子郵件。 | [T00](01-基礎的儲存庫操作-repository-basics/T00-註冊Github與設定VSCode.md) |
-| `git clone <儲存庫網址>` | 從 GitHub 取得或複製一份遠端儲存庫到本機。 | [T01](01-基礎的儲存庫操作-repository-basics/T01-建立一個儲存庫.md) |
+| `git clone <儲存庫網址>` | 從 GitHub 取得或複製一份遠端儲存庫到本機。 | [T01](01-基礎的儲存庫操作-repository-basics/T01-建立一個儲存庫.md)、[T12](04-多電腦協同工作-multi-computer-workflow/T12-在不同電腦接續工作.md) |
 | `git init` | 將目前資料夾初始化成本機 Git 儲存庫。講義以 VS Code 的 Initialize Repository 示範。 | [T01](01-基礎的儲存庫操作-repository-basics/T01-建立一個儲存庫.md) |
 
 ## 2. 檔案、暫存與提交
@@ -48,9 +48,9 @@
 
 | 指令 | 用途 | 主要關聯的講義 |
 | --- | --- | --- |
-| `git push` | 把目前分支的本機提交上傳至遠端。 | [T03](01-基礎的儲存庫操作-repository-basics/T03-推送至遠端Push與從遠端拉取Pull.md) |
-| `git pull --no-rebase` | 明確使用合併方式下載並整合遠端更新。 | [T03](01-基礎的儲存庫操作-repository-basics/T03-推送至遠端Push與從遠端拉取Pull.md)、[T04](02-版本控制-version-control/T04-衝突發生的處理.md) |
-| `git fetch` | 取得遠端更新資訊，但先不自動合併到目前工作。 | [T12](04-多電腦協同工作-multi-computer-workflow/README.md#規劃中的任務) |
+| `git push` | 把目前分支的本機提交上傳至遠端。 | [T03](01-基礎的儲存庫操作-repository-basics/T03-推送至遠端Push與從遠端拉取Pull.md)、[T12](04-多電腦協同工作-multi-computer-workflow/T12-在不同電腦接續工作.md) |
+| `git pull --no-rebase` | 明確使用合併方式下載並整合遠端更新。 | [T03](01-基礎的儲存庫操作-repository-basics/T03-推送至遠端Push與從遠端拉取Pull.md)、[T04](02-版本控制-version-control/T04-衝突發生的處理.md)、[T12](04-多電腦協同工作-multi-computer-workflow/T12-在不同電腦接續工作.md) |
+| `git fetch` | 取得遠端更新資訊，但先不自動合併到目前工作。 | [T12](04-多電腦協同工作-multi-computer-workflow/T12-在不同電腦接續工作.md) |
 | `git remote -v` | 查看目前儲存庫的遠端名稱及網址。 | [T01](01-基礎的儲存庫操作-repository-basics/T01-建立一個儲存庫.md)、[T11](03-檔案與儲存庫管理-files-and-repositories/T11-管理遠端位置與移轉專案.md) |
 | `git remote add <名稱> <網址>` | 新增一個遠端儲存庫位置。 | [T11](03-檔案與儲存庫管理-files-and-repositories/T11-管理遠端位置與移轉專案.md) |
 | `git remote remove <名稱>` | 移除已設定的遠端位置。 | [T11](03-檔案與儲存庫管理-files-and-repositories/T11-管理遠端位置與移轉專案.md) |
