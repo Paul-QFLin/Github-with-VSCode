@@ -20,14 +20,14 @@
 
 | 指令 | 用途 | 主要關聯的講義 |
 | --- | --- | --- |
-| `git status` | 查看目前分支、未暫存修改、已暫存修改及合併狀態。 | [T02](01-基礎的儲存庫操作-repository-basics/T02-提交Commit一個版本.md)、[T04](02-版本控制-version-control/T04-衝突發生的處理.md) |
-| `git add <檔案或資料夾>` | 將指定修改加入下一次提交的暫存區。 | [T02](01-基礎的儲存庫操作-repository-basics/T02-提交Commit一個版本.md) |
-| `git add .` | 暫存目前資料夾中可追蹤的修改；使用前先確認內容。 | [T02](01-基礎的儲存庫操作-repository-basics/T02-提交Commit一個版本.md)、[T09](03-檔案與儲存庫管理-files-and-repositories/README.md#規劃中的任務) |
+| `git status` | 查看目前分支、未追蹤檔案、未暫存修改、已暫存修改及合併狀態。 | [T02](01-基礎的儲存庫操作-repository-basics/T02-提交Commit一個版本.md)、[T04](02-版本控制-version-control/T04-衝突發生的處理.md)、[T09](03-檔案與儲存庫管理-files-and-repositories/T09-管理儲存庫中的檔案.md) |
+| `git add <檔案或資料夾>` | 將指定修改加入下一次提交的暫存區。 | [T02](01-基礎的儲存庫操作-repository-basics/T02-提交Commit一個版本.md)、[T09](03-檔案與儲存庫管理-files-and-repositories/T09-管理儲存庫中的檔案.md) |
+| `git add .` | 暫存目前資料夾中的變更，包括新檔案、修改與刪除；使用前先確認內容。 | [T02](01-基礎的儲存庫操作-repository-basics/T02-提交Commit一個版本.md)、[T09](03-檔案與儲存庫管理-files-and-repositories/T09-管理儲存庫中的檔案.md) |
 | `git commit -m "提交訊息"` | 建立一個包含已暫存內容的本機版本。 | [T02](01-基礎的儲存庫操作-repository-basics/T02-提交Commit一個版本.md) |
 | `git restore <檔案>` | 放棄尚未提交的工作區修改，使用前先確認會遺失的內容。 | [T06](02-版本控制-version-control/T06-回復與放棄修改.md) |
 | `git restore --staged <檔案>` | 取消暫存，保留檔案目前的修改。 | [T06](02-版本控制-version-control/T06-回復與放棄修改.md) |
-| `git rm <檔案>` | 從工作目錄及版本追蹤中刪除檔案。 | [T09](03-檔案與儲存庫管理-files-and-repositories/README.md#規劃中的任務) |
-| `git mv <原檔案> <新檔案>` | 將檔案重新命名或移動，並讓 Git 記錄這個變更。 | [T09](03-檔案與儲存庫管理-files-and-repositories/README.md#規劃中的任務) |
+| `git rm <檔案>` | 從工作目錄刪除已追蹤檔案，並將刪除加入暫存區。 | [T09](03-檔案與儲存庫管理-files-and-repositories/T09-管理儲存庫中的檔案.md) |
+| `git mv <原檔案> <新檔案>` | 移動或重新命名檔案，並將變更加入暫存區；Git 會依內容辨識是否顯示為重新命名。 | [T09](03-檔案與儲存庫管理-files-and-repositories/T09-管理儲存庫中的檔案.md) |
 
 在講義中，`git add`、暫存及 `git restore` 等操作會優先以 VS Code 的 Source Control 示範。
 
@@ -49,10 +49,10 @@
 | `git push` | 把目前分支的本機提交上傳至遠端。 | [T03](01-基礎的儲存庫操作-repository-basics/T03-推送至遠端Push與從遠端拉取Pull.md) |
 | `git pull --no-rebase` | 明確使用合併方式下載並整合遠端更新。 | [T03](01-基礎的儲存庫操作-repository-basics/T03-推送至遠端Push與從遠端拉取Pull.md)、[T04](02-版本控制-version-control/T04-衝突發生的處理.md) |
 | `git fetch` | 取得遠端更新資訊，但先不自動合併到目前工作。 | [T12](04-多電腦協同工作-multi-computer-workflow/README.md#規劃中的任務) |
-| `git remote -v` | 查看目前儲存庫的遠端名稱及網址。 | [T01](01-基礎的儲存庫操作-repository-basics/T01-建立一個儲存庫.md)、[T11](03-檔案與儲存庫管理-files-and-repositories/README.md#規劃中的任務) |
-| `git remote add <名稱> <網址>` | 新增一個遠端儲存庫位置。 | [T11](03-檔案與儲存庫管理-files-and-repositories/README.md#規劃中的任務) |
-| `git remote remove <名稱>` | 移除已設定的遠端位置。 | [T11](03-檔案與儲存庫管理-files-and-repositories/README.md#規劃中的任務) |
-| `git remote set-url <名稱> <新網址>` | 修改既有遠端的位置。 | [T11](03-檔案與儲存庫管理-files-and-repositories/README.md#規劃中的任務) |
+| `git remote -v` | 查看目前儲存庫的遠端名稱及網址。 | [T01](01-基礎的儲存庫操作-repository-basics/T01-建立一個儲存庫.md)、[T11](03-檔案與儲存庫管理-files-and-repositories/README.md#課程安排) |
+| `git remote add <名稱> <網址>` | 新增一個遠端儲存庫位置。 | [T11](03-檔案與儲存庫管理-files-and-repositories/README.md#課程安排) |
+| `git remote remove <名稱>` | 移除已設定的遠端位置。 | [T11](03-檔案與儲存庫管理-files-and-repositories/README.md#課程安排) |
+| `git remote set-url <名稱> <新網址>` | 修改既有遠端的位置。 | [T11](03-檔案與儲存庫管理-files-and-repositories/README.md#課程安排) |
 
 進入修改前，講義建議先 Fetch 或 Pull，再完成儲存、暫存、Commit，最後再 Push。這個流程可以降低衝突機會，但不能完全避免。
 
