@@ -76,7 +76,7 @@
 | `git switch <分支名稱>` | 切換到既有分支。 | [T07](02-版本控制-version-control/T07-建立切換與合併分支.md) |
 | `git switch -c <分支名稱>` | 建立並切換到新分支。 | [T07](02-版本控制-version-control/T07-建立切換與合併分支.md) |
 | `git merge <分支名稱>` | 將指定分支的內容合併到目前分支。 | [T07](02-版本控制-version-control/T07-建立切換與合併分支.md) |
-| `git push -u origin <分支名稱>` | 第一次將本機分支上傳到遠端並建立對應關係。 | [T08](02-版本控制-version-control/README.md#課程安排) |
+| `git push -u origin <分支名稱>` | 第一次將本機分支上傳到遠端並建立對應關係，以便在 GitHub 建立 Pull Request。 | [T08](02-版本控制-version-control/T08-使用Pull-Request協作.md) |
 | `git branch -d <分支名稱>` | 在確認不再需要後刪除本機分支。 | [T07](02-版本控制-version-control/T07-建立切換與合併分支.md) |
 
 講義主要先介紹分支與合併；Pull Request 則以 GitHub 網頁操作為主。
