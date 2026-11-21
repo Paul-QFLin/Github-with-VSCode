@@ -12,4 +12,5 @@
 - [T01：建立一個新的 Repo](T01-建立一個儲存庫.md) — GitHub Repository
 - [T02：儲存庫的確認 Commit](T02-提交Commit一個版本.md) — Commit 概念與實作
 - [T03：推送至遠端 Push 與從遠端拉取 Pull](T03-推送至遠端Push與從遠端拉取Pull.md) — Push / Pull 與遠端更新
-- [T04：Conflict 衝突發生的處理](T04-衝突發生的處理.md) — 衝突原因、處理與預防
+
+衝突處理已移至[第二階段 T04](../02-版本控制-version-control/T04-衝突發生的處理.md)，作為版本檢視與協作單元的第一課。
