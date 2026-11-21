@@ -5,7 +5,7 @@
 ## 學習方式
 
 1. 先完成 [T00：準備 GitHub 帳號與操作環境](docs/01-基礎的儲存庫操作-repository-basics/T00-註冊Github與設定VSCode.md)，再依階段順序學習或選擇需要的主題。
-2. 每項任務都有獨立的學習頁面，包含任務目標、學習重點、實作步驟與完成檢查。
+2. 第一階段的任務已有獨立講義；後續階段目前為重組後的課程規劃，講義將依序製作。
 3. 練習時請使用自己的測試 Repository；操作前先確認目前的資料夾、分支與遠端位置。
 
 ## 講義編寫原則
@@ -14,14 +14,18 @@
 
 ## 課程目錄
 
+第一階段已涵蓋建立與複製儲存庫、Commit、Push、Pull 及衝突處理。後續任務以此為基礎，不再將這些操作拆成獨立入門課。
+
+T05 以後的編號與主題為**新課程規劃**，尚未製作成完整講義；各階段頁面保留舊任務作為編寫參考，舊編號與新編號不互相對應。
+
 | 階段 | 主題 | 任務 |
 | --- | --- | --- |
-| [第一階段：建立與取得 Repo](docs/01-基礎的儲存庫操作-repository-basics/README.md) | 入門 | [T00 準備帳號與操作環境](docs/01-基礎的儲存庫操作-repository-basics/T00-註冊Github與設定VSCode.md)<br>[T01 建立新的 Repo](docs/01-基礎的儲存庫操作-repository-basics/T01-建立一個儲存庫.md)<br>[T02 儲存庫的確認 Commit](docs/01-基礎的儲存庫操作-repository-basics/T02-提交Commit一個版本.md)<br>[T03 推送至遠端 Push 與從遠端拉取 Pull](docs/01-基礎的儲存庫操作-repository-basics/T03-推送至遠端Push與從遠端拉取Pull.md)<br>[T04 Conflict 衝突發生的處理](docs/01-基礎的儲存庫操作-repository-basics/T04-衝突發生的處理.md)<br>[T05 在 VS Code 開啟 Repo](docs/01-基礎的儲存庫操作-repository-basics/T05-在編輯器開啟儲存庫.md) |
-| [第二階段：基本版本控制](docs/02-版本控制-version-control/README.md) | 核心操作 | [T07 更新 GitHub 上的程式](docs/02-版本控制-version-control/T07-暫存變更.md)<br>[T08 建立版本紀錄](docs/02-版本控制-version-control/T08-提交變更.md)<br>[T09 Push 上傳本機版本](docs/02-版本控制-version-control/T09-推送變更.md)<br>[T10 Pull 取得最新版本](docs/02-版本控制-version-control/T10-拉取最新版本.md)<br>[T11 查看檔案差異](docs/02-版本控制-version-control/T11-檢視差異.md)<br>[T12 查看 Commit History](docs/02-版本控制-version-control/T12-查看提交紀錄.md) |
-| [第三階段：檔案與 Repo 管理](docs/03-檔案與儲存庫管理-files-and-repositories/README.md) | 實務操作 | [T13 新增檔案](docs/03-檔案與儲存庫管理-files-and-repositories/T13-追蹤新檔案.md)<br>[T14 刪除或重新命名檔案](docs/03-檔案與儲存庫管理-files-and-repositories/T14-刪除與重新命名檔案.md)<br>[T15 設定 `.gitignore`](docs/03-檔案與儲存庫管理-files-and-repositories/T15-設定忽略檔案.md)<br>[T16 使用 Git Add 加入檔案](docs/03-檔案與儲存庫管理-files-and-repositories/T16-將檔案加入版本控制.md)<br>[T17 修改遠端位置](docs/03-檔案與儲存庫管理-files-and-repositories/T17-修改遠端網址.md)<br>[T18 將 Repo 複製到另一台電腦](docs/03-檔案與儲存庫管理-files-and-repositories/T18-複製到另一台電腦.md) |
-| [第四階段：多電腦協同工作](docs/04-多電腦協同工作-multi-computer-workflow/README.md) | 實務應用 | [T19 在兩台電腦接續工作](docs/04-多電腦協同工作-multi-computer-workflow/T19-跨電腦接續工作.md)<br>[T20 同步多個專案](docs/04-多電腦協同工作-multi-computer-workflow/T20-管理多個儲存庫.md)<br>[T21 在另一台電腦取得最新程式](docs/04-多電腦協同工作-multi-computer-workflow/T21-在另一台電腦取得更新.md)<br>[T22 解決 Merge Conflict](docs/04-多電腦協同工作-multi-computer-workflow/T22-解決合併衝突.md)<br>[T23 同步 VS Code 環境](docs/04-多電腦協同工作-multi-computer-workflow/T23-同步編輯器環境.md) |
-| [第五階段：分支與版本管理](docs/05-分支與版本管理-branches-and-releases/README.md) | 進階操作 | [T24 建立分支](docs/05-分支與版本管理-branches-and-releases/T24-建立開發分支.md)<br>[T25 切換分支](docs/05-分支與版本管理-branches-and-releases/T25-切換開發分支.md)<br>[T26 合併分支](docs/05-分支與版本管理-branches-and-releases/T26-合併分支.md)<br>[T27 Push 分支到 GitHub](docs/05-分支與版本管理-branches-and-releases/T27-推送分支.md)<br>[T28 建立 Pull Request](docs/05-分支與版本管理-branches-and-releases/T28-建立合併請求.md)<br>[T29 回復先前版本](docs/05-分支與版本管理-branches-and-releases/T29-還原與回復版本.md)<br>[T30 放棄未提交的修改](docs/05-分支與版本管理-branches-and-releases/T30-放棄未提交變更.md) |
-| [第六階段：進階應用與自動化](docs/06-進階應用與自動化-advanced-and-automation/README.md) | 延伸學習 | [T31 移轉專案到另一個 Repo](docs/06-進階應用與自動化-advanced-and-automation/T31-移轉儲存庫.md)<br>[T32 使用 Issues 管理問題](docs/06-進階應用與自動化-advanced-and-automation/T32-管理問題.md)<br>[T33 使用 Projects 管理工作](docs/06-進階應用與自動化-advanced-and-automation/T33-管理專案工作.md)<br>[T34 撰寫專案說明文件](docs/06-進階應用與自動化-advanced-and-automation/T34-撰寫專案說明文件.md)<br>[T35 使用 Tags 與 Releases](docs/06-進階應用與自動化-advanced-and-automation/T35-標記與發布版本.md)<br>[T36 自動更新 GitHub](docs/06-進階應用與自動化-advanced-and-automation/T36-版本控制自動化.md)<br>[T37 使用 GitHub Actions](docs/06-進階應用與自動化-advanced-and-automation/T37-自動化工作流程.md) |
+| [第一階段：建立與取得 Repo](docs/01-基礎的儲存庫操作-repository-basics/README.md) | 入門 | [T00 準備帳號與操作環境](docs/01-基礎的儲存庫操作-repository-basics/T00-註冊Github與設定VSCode.md)<br>[T01 建立新的 Repo](docs/01-基礎的儲存庫操作-repository-basics/T01-建立一個儲存庫.md)<br>[T02 儲存庫的確認 Commit](docs/01-基礎的儲存庫操作-repository-basics/T02-提交Commit一個版本.md)<br>[T03 推送至遠端 Push 與從遠端拉取 Pull](docs/01-基礎的儲存庫操作-repository-basics/T03-推送至遠端Push與從遠端拉取Pull.md)<br>[T04 Conflict 衝突發生的處理](docs/01-基礎的儲存庫操作-repository-basics/T04-衝突發生的處理.md) |
+| [第二階段：檢視與回復版本](docs/02-版本控制-version-control/README.md) | 版本管理 | T05 查看變更與版本紀錄<br>T06 回復與放棄修改 |
+| [第三階段：檔案與 Repo 管理](docs/03-檔案與儲存庫管理-files-and-repositories/README.md) | 實務操作 | T07 管理儲存庫中的檔案<br>T08 忽略不需要追蹤的檔案<br>T09 管理遠端位置與移轉專案 |
+| [第四階段：多電腦協同工作](docs/04-多電腦協同工作-multi-computer-workflow/README.md) | 實務應用 | T10 在不同電腦接續工作<br>T11 同步 VS Code 操作環境 |
+| [第五階段：分支與版本管理](docs/05-分支與版本管理-branches-and-releases/README.md) | 協作操作 | T12 建立、切換與合併分支<br>T13 使用 Pull Request 協作 |
+| [第六階段：進階應用與自動化](docs/06-進階應用與自動化-advanced-and-automation/README.md) | 延伸學習 | T14 撰寫專案說明文件<br>T15 使用 Issues 與 Projects 管理工作<br>T16 標記與發布版本<br>T17 使用 GitHub Actions 自動化工作 |
 
 ## 目錄結構
 
@@ -38,4 +42,4 @@
     └── 06-進階應用與自動化-advanced-and-automation/
 ```
 
-每個階段目錄都有階段導覽頁及該階段的任務文件。帳號設定已整合至 T00，因此不另設 T06。
+每個階段目錄都有階段導覽頁；後續階段的舊任務文件暫時保留，供重寫講義時參考。
