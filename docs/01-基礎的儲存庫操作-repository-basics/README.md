@@ -12,5 +12,5 @@
 - [T01：建立一個新的 Repo](T01-建立一個儲存庫.md) — GitHub Repository
 - [T02：儲存庫的確認 Commit](T02-提交Commit一個版本.md) — Commit 概念與實作
 - [T03：推送至遠端 Push 與從遠端拉取 Pull](T03-推送至遠端Push與從遠端拉取Pull.md) — Push / Pull 與遠端更新
-- [T04：下載／複製一個 Repo](T04-複製儲存庫.md) — Clone Repository
+- [T04：Conflict 衝突發生的處理](T04-衝突發生的處理.md) — 衝突原因、處理與預防
 - [T05：在 VS Code 開啟已存在的 Repo](T05-在編輯器開啟儲存庫.md) — Open Folder / Open Repository
