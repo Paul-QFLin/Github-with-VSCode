@@ -33,7 +33,9 @@
 
 ### 3. 確認 VS Code 與 Git
 
-1. 如果電腦還沒有 VS Code 或 Git，請分別到 <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">VS Code 官網</a>和 <a href="https://git-scm.com/downloads" target="_blank" rel="noopener noreferrer">Git 下載頁面</a>，下載並安裝適合自己作業系統的版本。已經安裝好的話，可以直接進行下一步。
+1. 除了VS Code之外，要與GitHub網路互通還需要灌Git。如果電腦還沒有 VS Code 或 Git，請分別到 <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">VS Code官網</a>和 <a href="https://git-scm.com/downloads" target="_blank" rel="noopener noreferrer">Git 下載頁面</a>，下載並安裝適合自己作業系統的版本。已經安裝好的話，可以直接進行下一步。
+**PS：**一般的電腦請選x64或AMD64的版本；如果是Apple系列、SnapdragonX系列的ARM架構的機器，再選ARM64版本下載。
+
 2. 開啟 VS Code，從選單選擇 **Terminal → New Terminal**（終端機 → 新增終端機），接著輸入：
 
    ```sh
