@@ -10,6 +10,6 @@
 - [**T07：建立、切換與合併分支**](T07-建立切換與合併分支.md) — 認識分支的用途，在 VS Code 建立與切換分支、提交修改並合併；遇到衝突時運用 T04 的處理方式。
 - [**T08：使用 Pull Request 協作**](T08-使用Pull-Request協作.md) — 推送分支到 GitHub、建立 Pull Request、查看與討論修改，確認後合併並取得結果。
 
-T04、T05、T06、T07、T08 已完成講義。第一階段的 [T02](../01-基礎的儲存庫操作-repository-basics/T02-提交Commit一個版本.md) 與 [T03](../01-基礎的儲存庫操作-repository-basics/T03-推送至遠端Push與從遠端拉取Pull.md) 已涵蓋暫存、提交、推送與拉取的基本操作。
+第一階段的 [T02](../01-基礎的儲存庫操作-repository-basics/T02-提交Commit一個版本.md) 與 [T03](../01-基礎的儲存庫操作-repository-basics/T03-推送至遠端Push與從遠端拉取Pull.md) 已涵蓋暫存、提交、推送與拉取的基本操作。
 
 [回到課程總覽](../../README.md)
