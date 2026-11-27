@@ -7,6 +7,7 @@
 在前面的課程，我們學會撰寫 README、管理 Issues 和發布版本。這一課，老師會帶你認識 GitHub Actions，建立一個簡單的工作流程：當 `main` 有新提交，或你手動啟動流程時，自動確認儲存庫中的 `README.md` 存在且不是空檔案。
 
 GitHub Actions 會依照 Workflow（工作流程）中的觸發條件執行工作。這次的範例只讀取檔案，不會修改或推送任何內容，也不需要設定密碼或權杖。
+- **Why or Why Not**: 透過GitHub Actions自動執行檢查，能及早發現README缺漏或空白，減少人工重複確認並提升流程的一致性。
 
 ## 學習重點
 
